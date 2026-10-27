@@ -1,0 +1,9 @@
+{
+  "schema_version": "literature-search-config/v1",
+  "databases": [{"name": "mock"}],
+  "keyword_groups": [
+    {"name": "group_a", "query": "alpha", "result_limit": 10},
+    {"name": "group_b", "query": "beta", "result_limit": 10}
+  ],
+  "deduplication": {"keys": ["doi", "title"]}
+}

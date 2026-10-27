@@ -1,0 +1,10 @@
+{
+  "schema_version": "literature-search-config/v1",
+  "databases": [{"name": "pubmed"}],
+  "keyword_groups": [
+    {"name": "REPLACE_WITH_GROUP_NAME", "query": "REPLACE_WITH_EXACT_QUERY", "result_limit": 100}
+  ],
+  "filters": {"from_year": null, "to_year": null, "journals": []},
+  "deduplication": {"keys": ["doi", "pmid", "title"]},
+  "result_limit": 100
+}
